@@ -1,0 +1,180 @@
+body{
+    width: 100%;
+    background-color: #414141;
+    font-family: 'Mulish';
+}
+
+h1 {
+    line-height: 5px;
+    font-size: 25px;
+}
+
+h3 {
+    color: rgb(24, 22, 22);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+h1, h4, a{
+    color: rgb(59, 16, 160);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.content {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 40px;
+    background-color: rgb(243, 245, 241);
+}
+
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.container-items-section h3 {
+    line-height: 5px;
+}
+
+.container-items-section h4 {
+    line-height: 0;
+}
+
+.container-items-section div, ul {
+    font-size: 14px;
+}
+
+.container-items-section ul li {
+    padding: 1px 0px;
+}
+
+.container-items-left{
+    width: 60%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.container-items-right{
+    width: 40%;
+}
+
+#foto-perfil img{
+    border-radius: 50%;
+}
+
+#foto-perfil{
+    width: 40%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.container-perfil {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-perfil .detail{
+    width: 60%;
+    justify-items: flex-end;
+}
+.container-perfil .detail h1 {
+    color:black;
+    line-height: 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.detail, a {
+    font-weight: 450;
+    list-style: none;
+    text-decoration: none;
+}
+
+.detail h4 {
+    line-height: 0px;
+}
+
+.contact-infomation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-information-item {
+    font-size: 12px;
+}
+
+.contener-items hr {
+    margin-top: 10px;
+}
+
+.contact-information-item a, span {
+    text-decoration: none;
+    margin: 0%;
+    margin-left: 5px;
+    color: rgb(10, 24, 24);
+}
+
+p {
+    border-top: rgb(158, 156, 156) 2px dotted;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+hr.solid {
+    border-top: rgb(59, 16, 160) 2px solid;
+}
+
+hr.dashed {
+    border-top: 1px dashed #bbb;
+}
+
+
+.container-items-right div div.botton {
+    display: inline-block;
+}
+
+.container-items-right .botton{
+    
+    border: 1px solid rgb(160, 161, 161);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+   
+}
+
+.container-items-right .botton a {
+    margin-left: 10px;
+}
+
+.filled {
+    color: rgb(59, 16, 160);
+}
+
+.empty {
+    color: rgb(226, 222, 223);
+}
+
+.contener-skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items-calendar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
